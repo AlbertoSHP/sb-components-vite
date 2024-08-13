@@ -37,3 +37,12 @@ export const Secondary: Story = {
 export const CustomColors: Story = {
   args: { label: "Custom color label" },
 };
+
+export const CustomBackgroundColors: Story = {
+  args: {
+    label: "Custom color label",
+    size: "h1",
+    fontColor: "#eeeeee",
+    backgroundColor: "black",
+  },
+};
